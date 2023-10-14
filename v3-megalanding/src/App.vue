@@ -1,10 +1,12 @@
 <template>
+	<NavigationBar />
 	<HomePage />
   <SponsorsComponent />
 	<SignupPage />
 </template>
 
 <script>
+import NavigationBar from "./components/NavigationBar.vue";
 import HomePage from './components/HomePage.vue';
 import SignupPage from './components/SignupPage.vue';
 import SponsorsComponent from './components/SponsorsComponent.vue';
@@ -12,9 +14,10 @@ import SponsorsComponent from './components/SponsorsComponent.vue';
 export default {
 	name: "App",
 	components: {
+		NavigationBar,
 		HomePage,
-		SignupPage,
-    SponsorsComponent
+    SponsorsComponent,
+		SignupPage
 	},
 };
 </script>

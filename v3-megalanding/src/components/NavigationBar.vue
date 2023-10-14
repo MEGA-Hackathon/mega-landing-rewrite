@@ -90,4 +90,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+
+
+export default {
+
+}
+
 </script>
