@@ -1,4 +1,5 @@
 # v3-megalanding
+V3 is written in Vue while V2 is in Next.js. Please change on server hosting.
 
 ## Project setup
 ```
